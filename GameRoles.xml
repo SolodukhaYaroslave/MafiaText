@@ -1,1 +1,61 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?> 
+<?xml version="1.0" encoding="utf-8" ?>
+<roles>
+	<Civilians name="Мирні жителі">
+		<Equity>
+			<name>Обивач</name>
+			<description>Не має спеціальних навичок</description>
+		</Equity>
+		
+		<Doctor>
+			<name>Доктор</name>
+			<description>Рятує від смерті гравця до котрого сходить</description>
+		</Doctor>
+
+		<Cyprian>
+			<name>Краля</name>
+			<description>Блокує хід в ночі тим до кого сходить але тих в кого вона не можна вбити вночі</description>
+		</Cyprian>
+
+		<Security>
+			<name>Охоронець</name>
+			<description>Обирає гравця вночі якого буде захищати, якщо гравця вбивают то він вмрає за нього</description>
+		</Security>
+	</Civilians>
+
+	<Sheriff name="Шериф">
+		<Sheriff>
+			<name>Шериф</name>
+			<description>Може вночі перевірити роль гравця вночі чи вистрілити</description>
+		</Sheriff>
+	</Sheriff>
+
+	<Mafia name="Мафія">
+		<Mafia>
+			<name>Мафія</name>
+			<description>Обирають кого вбити вночі</description>
+		</Mafia>
+
+		<Godfather>
+			<name>Хрещений батько</name>
+			<description>Обирає гравця вночі який в день не зможе голосувати в день</description>
+		</Godfather>
+		
+		<Robber>
+			<name>Розбійник</name>
+			<description>Обираю гравця якому заблокує хід </description>
+		</Robber>
+		
+		<Nark>
+			<name>Стукач</name>
+			<description>Доносить на гравця, якщо його роль перевіряють вночі, то його видають за мафію</description>
+		</Nark>
+</Mafia>
+
+	<Maniac name="Маніяк">
+		<Maniac>
+			<name>Маніяк</name>
+			<description>Обирає кого вбити вночі</description>
+		</Maniac>
+	</Maniac>
+</roles>
