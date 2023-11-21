@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <roles>
 	<Civilians name="Мирні жителі">
 		<Equity>
@@ -44,7 +45,6 @@
 			<name>Розбійник</name>
 			<description>Обираю гравця якому заблокує хід </description>
 		</Robber>
-		
 		<Nark>
 			<name>Стукач</name>
 			<description>Доносить на гравця, якщо його роль перевіряють вночі, то його видають за мафію</description>
