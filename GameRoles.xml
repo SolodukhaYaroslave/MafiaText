@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 
 <roles>
-	<Civilians name="Мирні жителі">
+	<Civilians name="Мирні жителі" path="https://i.pinimg.com/736x/15/d2/5d/15d25db6bd5fe38b4bdd501828dfca35.jpg">
 		<Equity>
 			<name>Обивач</name>
 			<description>Не має спеціальних навичок</description>
@@ -23,14 +23,14 @@
 		</Security>
 	</Civilians>
 
-	<Sheriff name="Шериф">
+	<Sheriff name="Шериф" path="https://i.pinimg.com/736x/15/d2/5d/15d25db6bd5fe38b4bdd501828dfca35.jpg">
 		<Sheriff>
 			<name>Шериф</name>
 			<description>Може вночі перевірити роль гравця вночі чи вистрілити</description>
 		</Sheriff>
 	</Sheriff>
 
-	<Mafia name="Мафія">
+	<Mafia name="Мафія" path="https://i.pinimg.com/736x/15/d2/5d/15d25db6bd5fe38b4bdd501828dfca35.jpg">
 		<Mafia>
 			<name>Мафія</name>
 			<description>Обирають кого вбити вночі</description>
@@ -51,7 +51,7 @@
 		</Nark>
 </Mafia>
 
-	<Maniac name="Маніяк">
+	<Maniac name="Маніяк" path="https://i.pinimg.com/736x/15/d2/5d/15d25db6bd5fe38b4bdd501828dfca35.jpg">
 		<Maniac>
 			<name>Маніяк</name>
 			<description>Обирає кого вбити вночі</description>
